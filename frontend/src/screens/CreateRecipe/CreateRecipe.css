@@ -1,0 +1,13 @@
+.ingredientsinput {
+  margin-top: 20px;
+}
+
+.categoryinput {
+  margin-top: 20px;
+}
+
+.formbuttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}

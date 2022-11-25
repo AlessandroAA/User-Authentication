@@ -1,0 +1,28 @@
+.menu {
+  margin-left: 770px;
+}
+
+.headerlogin {
+  margin-left: 300px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 56, 182);
+}
+
+@media only screen and (max-width: 1000px) {
+  .menu {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .headerlogin {
+    margin-left: 0px;
+  }
+}
