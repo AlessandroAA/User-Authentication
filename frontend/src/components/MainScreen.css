@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap");
-
 .mainback {
   min-height: 93vh;
   display: flex;
@@ -12,7 +10,7 @@
 
 .heading {
   font-size: 60px;
-  font-family: "Work Sans", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 5px 10px;
 }
 

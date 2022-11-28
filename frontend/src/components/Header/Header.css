@@ -9,10 +9,13 @@
 a {
   color: white;
   text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a:hover {
-  color: rgb(255, 56, 182);
+  color: #fe3d71;
+  transition: 0.5s ease-in-out;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media only screen and (max-width: 1000px) {

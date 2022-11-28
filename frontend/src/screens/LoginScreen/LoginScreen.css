@@ -1,6 +1,7 @@
 a {
   color: black;
   text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .loginContainer {
@@ -15,4 +16,6 @@ a {
 
 .submitbutton {
   margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
 }
