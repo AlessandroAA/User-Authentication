@@ -25,7 +25,7 @@ const App = () => (
         <Route path="/myrecipes" element={<MyRecipes />} />
       </Routes>
     </main>
-    <Footer />
+    {/* <Footer /> */}
   </BrowserRouter>
 );
 

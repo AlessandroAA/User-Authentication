@@ -7,6 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "./Header.css";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../../actions/userActions";
+import { ArrowBackIos } from '@mui/icons-material';
 
 const Header = () => {
   const navigate = useNavigate();
@@ -26,7 +27,10 @@ const Header = () => {
       <Container>
         <Nav className="brand">
           <Navbar.Brand>
-            <Link to="/">DinDer</Link>
+            {/* <Link to="/">DinDer</Link> */}
+            <Link to="/">
+              <ArrowBackIos fontSize='large' className='header__icon' />
+            </Link>
           </Navbar.Brand>
         </Nav>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
