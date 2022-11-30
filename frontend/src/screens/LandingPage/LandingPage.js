@@ -31,7 +31,7 @@ const LandingPage = () => {
                 />
               </h1>
               <p className="subtitle">
-                Swipe and discover all your culinary desires!
+                Swipe and discover all your <br /> culinary desires!
               </p>
             </div>
 
